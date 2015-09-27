@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "piyocp",
+  "description": "Copy web site url and title.",
+  "version": "0.1",
+  "icons": {
+    "16": "white_piyoco.png",
+    "48": "white_piyoco.png",
+    "128": "white_piyoco.png"
+  },
+  "browser_action": {
+    "default_icon": "white_piyoco_eye.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}

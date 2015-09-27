@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>piyocp</title>
+
+  <style type="text/css">
+
+    * {
+      color: #555;
+    }
+
+    body {
+      margin: 0;
+      padding: 5px;
+      background-color: #76c9c8;
+    }
+
+    .container {
+      margin: 0;
+      /*background-color: #cccccc;*/
+    }
+
+    .st {
+      margin-top: 3px;
+      margin-bottom: 1px;
+      color: #ffffff;
+      font-size: 1.2em;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    textarea {
+      margin: auto;
+      /*outline: */
+      padding: 6px 6px;
+      font-size: 14px;
+      line-height: 1.4;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    textarea:focus {
+      outline-color: #76c9c8;
+    }
+
+    #output {
+      width: 180px;
+      height: 70px;
+    }
+
+    #title_only {
+      width: 180px;
+      height: 30px;
+    }
+  </style>
+
+</head>
+<body>
+<div class="container">
+  <div class="st">title + url:</div>
+  <textarea name="" id="output" cols="10" rows="2" onfocus="this.select()" onmouseup="return false;"></textarea>
+
+  <div class="st">title:</div>
+  <textarea name="" id="title_only" cols="10" rows="1" onfocus="this.select()" onmouseup="return false;"></textarea>
+</div>
+<script type="text/javascript" src="popup.js"></script>
+
+</body>
+</html>
